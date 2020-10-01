@@ -34,6 +34,9 @@ describe("sayHello", function(){
     it("should return 'Hello, World!' when true is passed", function(){
         expect(sayHello(true)).toBe("Hello, World!");
     });
+    it("should return 'Hello, World!' when true is passed", function(){
+        expect(sayHello(false)).toBe("Hello, World!");
+    });
 });
 
 describe("isFive", function(){
