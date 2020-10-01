@@ -13,3 +13,16 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+
+describe("addOne", function(){
+    it("should return 2", function (){
+        expect(addOne(1)).toBe(2);
+    });
+});
+
+describe("double", function(){
+    it("should return double the input", function(){
+        expect(double(5)).toBe(10);
+    });
+});
